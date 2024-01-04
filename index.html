@@ -7,15 +7,50 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <p>Hunter Morgan</p>
-    <nav>
-      <ul>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Resume</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+    <header>
+      <div class="container">
+        <div class="display-name">
+          <h1>Hunter Morgan</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a>About</a></li>
+            <li><a>Projects</a></li>
+            <li><a>Resume</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="about"></section>
+      <section id="project"></section>
+      <section id="resume"></section>
+      <section id="contact">
+        <div class="form-div">
+          <h2>Contact Me</h2>
+          <form method="post">
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div>
+              <label for="description">Description:</label>
+              <textarea
+                id="description"
+                name="description"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <div>
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
 
     <script src="script.js"></script>
   </body>
