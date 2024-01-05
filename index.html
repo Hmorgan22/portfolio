@@ -112,6 +112,9 @@
             action="https://formsubmit.co/579c0b8cb2f979f0bab0e60532143305"
             method="POST"
           >
+            <!-- disable captcha and create a honeypot -->
+            <input type="hidden" id="honey-pot" name="_honey" />
+            <input type="hidden" name="_captcha" value="false" />
             <div class="col-md-6">
               <label for="first-name" class="form-label">First Name</label>
               <input
@@ -124,7 +127,12 @@
             </div>
             <div class="col-md-6">
               <label for="last-name" class="form-label">Last Name</label>
-              <input type="text" class="form-control" id="last-name" />
+              <input
+                type="text"
+                class="form-control"
+                name="last-name"
+                id="last-name"
+              />
             </div>
             <div class="col-md-8">
               <label for="email-info" class="form-label">E-mail</label>
@@ -142,6 +150,7 @@
                 type="text"
                 class="form-control"
                 id="phone-number"
+                name="phone-number"
                 placeholder="+1 (859) 867-5309"
               />
             </div>
@@ -151,6 +160,7 @@
                 class="form-control"
                 id="comments"
                 rows="3"
+                name="comments"
                 required
               ></textarea>
             </div>
