@@ -50,7 +50,7 @@ h2 {
 
 .success-div {
   margin-top: 50px;
-  margin: auto;
+  padding-top: 100px;
 }
 
 .form-div h2 {
@@ -59,4 +59,13 @@ h2 {
 
 #honey-pot {
   display: none;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.form-h2 {
+  padding: 10px;
 }
