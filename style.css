@@ -74,5 +74,6 @@ h2 {
 }
 
 section {
-  margin-bottom: 10%;
+  padding-top: 40px;
+  min-height: 100vh;
 }
