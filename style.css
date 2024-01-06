@@ -74,6 +74,10 @@ h2 {
 }
 
 section {
-  padding-top: 40px;
+  padding-top: 80px;
   min-height: 100vh;
+}
+
+.picture-div {
+  background-color: black;
 }
