@@ -4,8 +4,34 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  padding-top: 70px;
+@media only screen and (max-width: 1000px) {
+  .container {
+    padding-top: 20%;
+  }
+
+  #contact {
+    padding-top: 215px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    padding-top: 30%;
+  }
+
+  #contact {
+    padding-top: 220px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    padding-top: 45%;
+  }
+
+  #contact {
+    padding-top: 230px;
+  }
 }
 
 nav {
